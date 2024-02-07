@@ -7,9 +7,9 @@ namespace Traversal.DataAccessLayer.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=MSI;initial catalog=TraversalDB;integrated security=true;trusted_connection=true;encrypt=false");
+            optionsBuilder.UseSqlServer("Server=MSI;initial catalog=TraversalReservationDB;integrated security=true;trusted_connection=true;encrypt=false");
         }
-
+        
         public DbSet<About> Abouts { get; set; }
         public DbSet<About2> Abouts2 { get; set; }
         public DbSet<Contact> Contacts { get; set; }
