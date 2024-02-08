@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Concrete\EntityFramework\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\Traversal.EntityLayer\Traversal.EntityLayer.csproj" />
   </ItemGroup>
 

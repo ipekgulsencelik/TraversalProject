@@ -23,4 +23,8 @@
     <ProjectReference Include="..\Traversal.DataAccessLayer\Traversal.DataAccessLayer.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="ValidationRules\" />
+  </ItemGroup>
+
 </Project>
