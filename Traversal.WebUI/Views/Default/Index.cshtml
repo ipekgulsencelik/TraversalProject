@@ -4,5 +4,6 @@
     Layout = "~/Views/Shared/_DefaultLayout.cshtml";
 }
 
-<h1>Index</h1>
+@await Component.InvokeAsync("_SliderPartial")
 
+@await Component.InvokeAsync("_PopulerDestinationsPartial")
